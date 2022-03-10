@@ -14,3 +14,11 @@ const sliderMain = new Swiper('.slider__main', {
     },
   },
 });
+const sliderBg = new Swiper('.slider__bg', {
+  centeredSlides: true,
+  parallax: true,
+  slidesPerView: 3.5,
+  spaceBetween: 60,
+});
+sliderMain.controller.control = sliderBg;
+console.log(sliderMain.controller);
