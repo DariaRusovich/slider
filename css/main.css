@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --dark: hsl(0, 0%, 3%);
+    --light: hsl(0, 0%, 100%);
+    --sizeindex: calc(1vw + 1vh);
+}
+body, html{
+    
+}
